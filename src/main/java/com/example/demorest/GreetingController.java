@@ -12,6 +12,6 @@ public class GreetingController {
     @GetMapping("/")
     public String greeting() {
         LocalDate localDate = LocalDate.now();
-        return "Hello Friend! the time is " + localDate.toString();
+        return "Hello Friend! the local time is " + localDate.toString();
     }
 }
